@@ -8,6 +8,9 @@ bin/
 build/
 dist/
 venv/
+outputs/
+logs/
+src/models/store
 # Игнорировать временные файлы и кэши
 *.log
 *.tmp
