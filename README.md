@@ -57,7 +57,7 @@ The system can be operated using several Command Line Interface (CLI) commands. 
    $ python path/to/main.py listen --radio='https://radio.example.com/stream' --model_path='./models/keyword_spotter_model'
    ```
 
-4. **Find:**
+4. **Find:** 
    Processes an audio file to identify and extract segments following detected keywords. Outputs the cropped audio segments to a specified directory.
 
    ```bash
