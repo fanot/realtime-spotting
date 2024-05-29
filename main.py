@@ -73,7 +73,7 @@ class CliWrapper(object):
         Listens to a live radio stream and detects wake words using a pre-trained model.
 
         Args:
-            radio (str, optional): The URL of the radio stream to listen to. Defaults to `'https://radio.kotah.ru/soundcheck'`.
+            radio (str, optional): The URL of the radio stream to listen to.
             model_path (str, optional): The path to the pre-trained model. Defaults to `None`.
 
         Returns:
@@ -84,13 +84,13 @@ class CliWrapper(object):
         self.spotter.process_radio_stream(radio)
         logger.info(f"The method is successfully finished")
 
-    def listen_real(self, radio='https://radio.kotah.ru/thanosshow', model_path=None):
+    def listen_real(self, radio='https://radio.kotah.ru/exam', model_path=None):
         """
         Temp method only for coursework. The same method that `listen` but only for one specified radio station
         Listens to a live radio stream and detects wake words using a pre-trained model.
 
         Args:
-           radio (str, optional): The URL of the radio stream to listen to. Defaults to `'http://radio.maslovka-home.ru/thanosshow'`.
+           radio (str, optional): The URL of the radio stream to listen to.
            model_path (str, optional): The path to the pre-trained model. Defaults to `None`.
 
         Returns:
