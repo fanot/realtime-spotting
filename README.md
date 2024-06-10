@@ -1,7 +1,6 @@
 # Sound Processing and Real-Time Keyword Spotting
 
-This project is designed to detect keywords in audio files and live radio streams, developed as part of the coursework in the 7th module of the 3rd year at the [Higher IT School](https://hits.tsu.ru/), [Tomsk State University](https://www.tsu.ru/), [Tomsk](https://en.wikipedia.org/wiki/Tomsk).
-
+This project is designed to detect keywords in audio files and live radio streams.
 ## Models
 
 We utilize the [MatchboxNet](https://arxiv.org/abs/2004.08531) model, an end-to-end neural network tailored for speech command recognition.
